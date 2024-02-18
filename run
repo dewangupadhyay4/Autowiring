@@ -1,0 +1,13 @@
+package com.dewang.foodie;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class run {
+	public static void main(String[]args) {
+ApplicationContext context=new ClassPathXmlApplicationContext("com/dewang/foodie/config2.xml");
+		aadmi aurat=context.getBean("ekaadmi",aadmi.class);
+		System.out.println(aurat);
+	}
+
+}
