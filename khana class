@@ -1,0 +1,34 @@
+package com.dewang.foodie;
+
+public class Khana {
+	private String breakfast;
+	private String dinner;
+	public String getBreakfast() {
+		return breakfast;
+	}
+	public void setBreakfast(String breakfast) {
+		this.breakfast = breakfast;
+	}
+	public String getDinner() {
+		return dinner;
+	}
+	public void setDinner(String dinner) {
+		this.dinner = dinner;
+	}
+	public Khana(String breakfast, String dinner) {
+		super();
+		this.breakfast = breakfast;
+		this.dinner = dinner;
+	}
+	public Khana() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Khana [breakfast=" + breakfast + ", dinner=" + dinner + "]";
+	}
+	
+	
+
+}
