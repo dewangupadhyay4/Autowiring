@@ -1,0 +1,31 @@
+package com.dewang.foodie;
+
+public class aadmi {
+
+	private Khana khana;
+
+	public Khana getKhana() {
+		return khana;
+	}
+
+	public void setKhana(Khana khana) {
+		this.khana = khana;
+	}
+
+	public aadmi(Khana khana) {
+		super();
+		this.khana = khana;
+	}
+
+	public aadmi() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "aadmi [khana=" + khana + "]";
+	}
+	
+	
+}
